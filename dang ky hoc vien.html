@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dang ky hoc vien</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<form style="background-color: darksalmon">
+    <table>
+        <tr style="background-color: aqua">
+            <th style="text-align: left" colspan="2">
+                <h1>ĐĂNG KÝ HỌC VIÊN</h1>
+            </th>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" name="Hoten"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input type="text" name="dob"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td><input type="radio" value="Male" name="gender">Nam
+            <input type="radio" value="Female" name="gender">Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text" name="add"></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td><select name="class">
+                <option value="class0">--Chọn lớp--</option>
+                <option value="class1">Lập trình PHP-2903</option>
+                <option value="class2">Lập trình JavaScript-2903</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="text" name="Phone"> </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center">
+                <button type="submit" value="submit"> Đăng ký </button>
+                <button type="reset" value="reset"> Nhập lại </button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
